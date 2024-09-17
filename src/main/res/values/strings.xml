@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">yuvati</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="categories">
+        <item>All</item>
+        <item>State</item>
+        <item>Union Territories</item>
+        <item>Cities</item>
+        <item>Total</item>
+    </string-array>
+
+    <string-array name="incidence_year">
+        <item>2000</item>
+        <item>2001-2012</item>
+        <item>2013</item>
+        <item>2014</item>
+    </string-array>
+
+</resources>

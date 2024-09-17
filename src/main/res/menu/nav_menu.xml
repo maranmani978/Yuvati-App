@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Online">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/schemes"
+                    android:title="Schemes"
+                    android:icon="@drawable/log_out"/>
+
+                <item
+                    android:id="@+id/fund"
+                    android:title="Funds"
+                    android:icon="@drawable/log_out"/>
+
+                <item
+                    android:id="@+id/violence"
+                    android:title="Violence"
+                    android:icon="@drawable/log_out"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Offline">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/tips"
+                    android:title="Tips"
+                    android:icon="@drawable/log_out"/>
+            </group>
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/account_setting"
+            android:title="Account Settings"
+            android:icon="@drawable/log_out"/>
+
+        <item
+            android:id="@+id/about"
+            android:title="About"
+            android:icon="@drawable/log_out"/>
+    </group>
+
+</menu>

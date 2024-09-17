@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.murugamani.example.yuvati.Fragments.ViolenceStateFragment">
+
+    <RadioGroup
+        android:id="@+id/year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp">
+
+        <RadioButton
+            android:id="@+id/year_1999"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="1999"
+            android:layout_weight="1"
+            android:textSize="18sp"/>
+
+        <RadioButton
+            android:id="@+id/year_2000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2000"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Category"
+            android:textSize="18sp"
+            android:textColor="#252424"
+            android:layout_marginRight="30dp"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#dedada"
+        android:divider="@null"
+        android:dividerHeight="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/progress_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            style="@style/Base.Widget.AppCompat.ProgressBar"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
